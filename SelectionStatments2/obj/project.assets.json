@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\britt\\reposTC\\SelectionStatments2\\SelectionStatments2\\SelectionStatments2.csproj",
+      "projectUniqueName": "C:\\Users\\britt\\reposTC\\favoriteSchoolSubject\\SelectionStatments2\\SelectionStatments2.csproj",
       "projectName": "SelectionStatments2",
-      "projectPath": "C:\\Users\\britt\\reposTC\\SelectionStatments2\\SelectionStatments2\\SelectionStatments2.csproj",
+      "projectPath": "C:\\Users\\britt\\reposTC\\favoriteSchoolSubject\\SelectionStatments2\\SelectionStatments2.csproj",
       "packagesPath": "C:\\Users\\britt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\britt\\reposTC\\SelectionStatments2\\SelectionStatments2\\obj\\",
+      "outputPath": "C:\\Users\\britt\\reposTC\\favoriteSchoolSubject\\SelectionStatments2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\britt\\AppData\\Roaming\\NuGet\\NuGet.Config",

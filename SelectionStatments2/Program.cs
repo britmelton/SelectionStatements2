@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SelectionStatments2
 {
@@ -6,32 +7,22 @@ namespace SelectionStatments2
     {
         static void Main(string[] args)
         {
-            //switch case exercise 
+            #region Class Exercise Instructions
+            //In class exercise 
+            /*Ask the user for their favorite school subject. 
+             * Store their answer in a variable
+             * Pass the variable as the expression in a switch statement.
+             * Create 5 different cases for different subjects.  
+             * Each case will print the subject chosen and a custom message of your choosing.
+             * Create a default case to handle any case not handled.*/
 
-            Console.WriteLine("what is your favorite subject in school?");
-            string subject = Console.ReadLine();
+            //added a bonus GetDrinkByProfession
+            #endregion
 
-            switch (subject)
-            {
-                case "math":
-                    Console.WriteLine("math is evil");
-                    break;
-                case "literature":
-                    Console.WriteLine("reading is fun");
-                    break;
-                case "science":
-                    Console.WriteLine("science can change the world");
-                    break;
-                case "social studies":
-                    Console.WriteLine("history is important");
-                    break;
-                case "physical education":
-                    Console.WriteLine("physical education helps you stay active!");
-                    break;
-                default:
-                    Console.WriteLine("knowledge is valuable");
-                    break;
-            }
+            Subject.GetSchoolSubject();
+            Drinks.GetDrinkByProfession();
+
+
         }
     }
 }
